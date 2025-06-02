@@ -1,0 +1,8 @@
+crewai
+crewai-tools
+langchain
+langchain-community
+pandas
+numpy
+scipy
+deepchem
