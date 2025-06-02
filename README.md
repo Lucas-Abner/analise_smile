@@ -33,28 +33,28 @@ O objetivo do projeto é, a partir de uma entrada no formato SMILES, identificar
 
 ⚙️ Instalação
 
-    Clone este repositório:
+Clone este repositório:
 
-git clone https://github.com/Lucas-Abner/analise_smile.git
-cd analise_smile
+    git clone https://github.com/Lucas-Abner/analise_smile.git
+    cd analise_smile
 
-    Crie um ambiente virtual e ative:
+Crie um ambiente virtual e ative:
+    
+    python -m venv venv
+    source venv/bin/activate  # Linux/Mac
+    venv\Scripts\activate     # Windows
 
-python -m venv venv
-source venv/bin/activate  # Linux/Mac
-venv\Scripts\activate     # Windows
+Instale as dependências:
 
-    Instale as dependências:
+    pip install -r requirements.txt
 
-pip install -r requirements.txt
+Configure o Ollama localmente e baixe o modelo mistral:7b:
 
-    Configure o Ollama localmente e baixe o modelo mistral:7b:
+    ollama pull mistral
 
-ollama pull mistral
+Configure o arquivo .env (opcional):
 
-    Configure o arquivo .env (opcional):
-
-touch .env
+    touch .env
 
 🏃‍♂️ Como executar
 
