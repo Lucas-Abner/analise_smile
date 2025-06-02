@@ -35,8 +35,8 @@ O objetivo do projeto é, a partir de uma entrada no formato SMILES, identificar
 
     Clone este repositório:
 
-git clone https://github.com/seu-usuario/smiles-analyzer.git
-cd smiles-analyzer
+git clone https://github.com/Lucas-Abner/analise_smile.git
+cd analise_smile
 
     Crie um ambiente virtual e ative:
 
